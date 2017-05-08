@@ -5,6 +5,5 @@ package com.mocktodo;
  */
 
 public interface BasePresenter {
-
     void start();
 }

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">MockTodo</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Strings in tasks-->
+    <string name="filter_all">All tasks</string>
+    <string name="filter_active">Active tasks</string>
+    <string name="filter_complete">Completed tasks</string>
+    <string name="navigate_right">go into task detail page</string>
+
 </resources>

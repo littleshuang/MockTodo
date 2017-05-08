@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/cb_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:checked="true"/>
+
+    <TextView
+        android:id="@+id/tv_task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_height_filter_label"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/cb_task"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:text="@string/filter_all"
+        tools:ignore="RelativeOverlap"/>
+
+    <ImageButton
+        android:id="@+id/ib_enter_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_right"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/navigate_right"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"/>
+
+</RelativeLayout>
